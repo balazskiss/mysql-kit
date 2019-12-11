@@ -9,7 +9,7 @@ let package = Package(
     ],
     dependencies: [
         // Module map for `libmysql`
-        .package(url: "https://github.com/vapor/cmysql.git", from: "2.0.2"),
+        //.package(url: "https://github.com/vapor/cmysql.git", from: "2.0.2"),
 
         // Data structure for converting between multiple representations
         .package(url: "https://github.com/vapor/node.git", from: "2.1.5"),
